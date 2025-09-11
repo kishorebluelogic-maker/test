@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Webpage</title>
+  <style>
+    body { font-family: Arial; background: #f7f7f7; text-align: center; margin-top: 100px; }
+    h1 { color: darkblue; }
+    button { background: green; color: white; padding: 12px 20px; border: none; border-radius: 6px; cursor: pointer; }
+    button:hover { background: darkgreen; }
+  </style>
+</head>
+<body>
+  <h1>Hello from HTML, CSS, and JavaScript!</h1>
+  <p>Click the button below to see JavaScript in action:</p>
+  <button id="myButton">Click Me</button>
+
+  <script>
+    document.getElementById("myButton").onclick = function() {
+      alert("🎉 You just clicked the button! This is JavaScript in action.");
+    }
+  </script>
+</body>
+</html>
